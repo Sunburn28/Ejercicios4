@@ -25,7 +25,7 @@ namespace Ejercicios4
 
                 if (divisor == i)
                 {
-                    primos += i + "\n";
+                    primos += i";
                 }
             }
             MessageBox.Show(primos);
