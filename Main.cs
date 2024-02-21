@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,6 +43,12 @@ namespace Ejercicios4
         private void button3_Click(object sender, EventArgs e)
         {
             EdadG frm = new EdadG();
+            frm.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            caldera frm = new caldera();
             frm.Show();
         }
     }
